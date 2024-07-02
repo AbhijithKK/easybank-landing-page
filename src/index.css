@@ -1,14 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-   --DarkBlue: hsl(233, 26%, 24%);
-   --LimeGreen: hsl(136, 65%, 51%);
-   --BrightCyan: hsl(192, 70%, 51%);
-   --GrayishBlue: hsl(233, 8%, 62%);
---LightGrayishBlue: hsl(220, 16%, 96%);
---VeryightGray: hsl(0, 0%, 98%);
---White: hsl(0, 0%, 100%);
+:root {
+  --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+  --GrayishBlue: hsl(233, 8%, 62%);
+  --LightGrayishBlue: hsl(220, 16%, 96%);
+  --VeryightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
 }
