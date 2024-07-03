@@ -9,13 +9,15 @@ const NavBar = () => {
             <img src={logo} alt="logo" />
         </div>
         <div className="nav-menu-item">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Content</li>
-                <li>Blog</li>
-                <li>Careers</li>
-            </ul>
+           <div className='navList'>
+
+                <div>Home</div>
+                <div>About</div>
+                <div>Content</div>
+                <div>Blog</div>
+                <div>Careers</div>
+           </div>
+            <div className="nav-bg-effect"></div>
         </div>
             <div className="nav-button">
                 <Button title={'Request Invite'} width={'150px'} height={'25px'} />
