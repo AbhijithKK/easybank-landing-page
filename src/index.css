@@ -12,4 +12,7 @@
   --LightGrayishBlue: hsl(220, 16%, 96%);
   --VeryightGray: hsl(0, 0%, 98%);
   --White: hsl(0, 0%, 100%);
+  --MarginLeft:5rem;
+  --MarginRight:5rem;
+
 }

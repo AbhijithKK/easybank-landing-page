@@ -1,7 +1,11 @@
 import './NavBar.css'
 import logo from '../../src/assets/logo.svg'
 import Button from '../Button/Button'
+import menuIcon from '../assets/icon-hamburger.svg'
+import closeIcon from '../assets/icon-close.svg'
+import { useState } from 'react'
 const NavBar = () => {
+    const [isOpen ,setIsClose]=useState(false)
   return (
     <>
     <div className="nav-container">
@@ -22,6 +26,26 @@ const NavBar = () => {
             <div className="nav-button">
                 <Button title={'Request Invite'} width={'150px'} height={'25px'} />
             </div>
+            <div className="nav-Menu-bar">
+                {
+                    isOpen===false?
+                    <img src={menuIcon} onClick={()=>setIsClose(!isOpen)}  alt="logo" className='logo-menu-open' />
+                    :
+                    <img src={closeIcon} onClick={()=>setIsClose(!isOpen)} alt="logo" className='logo-menu-close' />
+            }
+        </div>
+        
+    </div>
+    <div className={isOpen===false? 'closer':"nav-mobile-menu"}>
+        <div className="mobile-nav-items">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Blog</li>
+                <li>Careers</li>
+            </ul>
+        </div>
     </div>
     </>
   )
