@@ -1,5 +1,6 @@
 
 import './App.css'
+import IntroSection from './IntroSection/IntroSection'
 import NavBar from './NavBar/NavBar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <NavBar/>
+      <IntroSection/>
     </>
   )
 }
