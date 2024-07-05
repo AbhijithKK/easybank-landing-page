@@ -5,7 +5,7 @@ const IntroSection = () => {
   return (
     <>
       <div className="intro-container">
-        <div className="intro-left">
+        {/* <div className="intro-left"> */}
          <div className="intro-content">
          <h2>Next generation digital banking</h2>
           <small>Lorem ipsum dolor, sit amet consectetur 
@@ -14,9 +14,12 @@ const IntroSection = () => {
             re maxime sit! Sed ipsum commodi error?</small>
             <Button title={'Request Invite'} width={'150px'} height={'30px'} />
          </div>
+         <div className="intro-bg-img">
+
           <img src={bgImg} alt="" />
+         </div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   )
 }

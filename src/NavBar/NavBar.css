@@ -1,7 +1,7 @@
 .nav-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--White);
     height: 50px;
 }
@@ -57,7 +57,12 @@
     display: none;
 
 }
+
 @media (max-width:600px) {
+    .Nav-menubar-closer{
+        display: block;
+    
+    }
     .nav-menu-item{
         display: none;
     }
