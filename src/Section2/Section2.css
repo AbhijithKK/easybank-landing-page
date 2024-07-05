@@ -1,9 +1,10 @@
 .section2-main{
 background-color: var(--LightGrayishBlue);
 width: 100vw;
-height: 22rem;
 overflow: hidden;
 display: grid;
+padding-bottom: 50px;
+
 align-content: center;
 justify-content: space-around;
 

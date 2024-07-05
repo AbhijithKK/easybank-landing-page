@@ -1,0 +1,27 @@
+.section3{
+    display: grid;
+    align-content: center;
+    width: 100vw;
+    justify-content: space-around;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}.section3-hedding{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 03rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: start;
+}
+.articles{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.article-card{
+max-width: 300px;
+display: grid;
+}
