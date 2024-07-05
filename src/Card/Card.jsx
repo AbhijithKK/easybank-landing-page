@@ -1,10 +1,15 @@
-import React from 'react'
+import './Card.css'
 
-const Card = () => {
+const Card = ({title,content,image}) => {
   return (
-    <div>
-      
-    </div>
+    <>
+        <div className="card-image">
+
+        <img src={image} alt="" />
+        </div>
+        <h2>{title}</h2>
+        <p>{content}</p>
+    </>
   )
 }
 

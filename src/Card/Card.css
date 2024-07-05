@@ -1,0 +1,23 @@
+
+.card-image{
+display: flex;
+justify-content: flex-start;
+padding-bottom: 5px;
+}
+.card-image img{
+width: 10%;
+}
+.section2-card h2{
+font-size: 25px;
+font-weight: 200;
+text-align: start;
+padding-bottom: 5px;
+max-width: 300px;
+
+
+}
+.section2-card p{
+line-height: 15px;
+text-align: start;
+max-width: 300px;
+}

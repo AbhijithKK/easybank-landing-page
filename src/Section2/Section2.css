@@ -1,0 +1,28 @@
+.section2-main{
+background-color: var(--LightGrayishBlue);
+width: 100vw;
+height: 22rem;
+overflow: hidden;
+display: grid;
+align-content: center;
+justify-content: space-around;
+
+}
+.headding{
+    margin-top: 20px;
+
+max-width: 350px;
+}
+.boxes{
+    margin-top: 20px;
+display: flex;
+gap: 100px;
+flex-wrap: wrap;
+/* align-items: center; */
+justify-content: space-around;
+}
+.section2-card{
+    display: grid;
+    /* height: 200px; */
+   
+}
