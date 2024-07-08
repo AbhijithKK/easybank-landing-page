@@ -5,6 +5,7 @@
     justify-content: space-around;
     overflow: hidden;
     margin-bottom: 50px;
+    align-items: center;
 
 }.section3-hedding{
     margin-top: 20px;
@@ -22,18 +23,20 @@
     flex-wrap: wrap;
     gap: 100px;
     justify-content: space-around;
-
+    align-content: center;
 }
 .article-card{
-    flex: 1 1 auto;
-max-width: 300px;
+    /* flex: 1 1 auto; */
+width: 300px;
 display: grid;
+align-items: center;
+justify-content: center;
 }
-@media (max-width:600px) {
+/* @media (max-width:600px) {
     .article-card{
        
     max-width: 200px;
     display: grid;
     }
 
-}
+} */
