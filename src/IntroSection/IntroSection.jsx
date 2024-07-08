@@ -7,11 +7,10 @@ const IntroSection = () => {
       <div className="intro-container">
         {/* <div className="intro-left"> */}
          <div className="intro-content">
-         <h2>Next generation digital banking</h2>
-          <small>Lorem ipsum dolor, sit amet consectetur 
-            adipisicing elit. In sit quae illum eligendi totam earum un
-            de? Harum rerum optio vitae facilis nobis dolorum invento
-            re maxime sit! Sed ipsum commodi error?</small>
+         <h2>  Next generation digital banking
+</h2>
+          <small>Take your financial life online. Your Easybank account will be a one-stop-shop 
+  for spending, saving, budgeting, investing, and much more.</small>
             <Button title={'Request Invite'} width={'150px'} height={'30px'} />
          </div>
          <div className="intro-bg-img">
