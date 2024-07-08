@@ -52,3 +52,50 @@ gap: 20px;
 
 }
 
+@media (max-width:600px) {
+    .footer{
+        background-color: var(--DarkBlue);
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        height: 28rem;
+        width: 100%;
+        gap: 10px;
+        }
+        .footer-button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-firstblock{
+            display: grid;
+            height: 100%;
+            padding-top: 20px;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            gap: 5px;
+            }
+            .footer-socialmedia{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                
+            gap: 5px;
+            }
+            .footer-second-block{
+                color: var(--White);
+                display: grid;
+                gap: 15px;
+                }
+                .footer-second-block ul:nth-child(1){
+                    display: grid;
+                    
+                }
+                .footer-second-block ul li {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+}
