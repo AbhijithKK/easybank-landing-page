@@ -25,7 +25,7 @@ const NavBar = () => {
         <div className="nav-button">
           <Button title={"Request Invite"} width={"150px"} height={"25px"} />
         </div>
-        <div className={isOpen?"nav-Menu-bar": "Nav-menubar-closer"}>
+        <div className={isOpen ? "nav-Menu-bar" : "Nav-menubar-closer"}>
           {isOpen === false ? (
             <img
               src={menuIcon}
